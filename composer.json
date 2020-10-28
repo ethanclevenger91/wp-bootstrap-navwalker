@@ -26,6 +26,11 @@
     "archive": {
         "exclude": ["/.*", "/composer.lock"]
     },
+    "autoload": {
+       "psr-4": {
+          "": ""
+        }
+    },
     "scripts": {
         "post-install-cmd": [
             "wp-enforcer"
